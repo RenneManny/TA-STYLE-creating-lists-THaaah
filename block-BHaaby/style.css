@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+header{
+    background-color: orangered;
+   padding: 16px 32px;
+}
+.container{
+max-width: 1200px;
+margin: 0px auto;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 18px;
+    
+}
+main{
+    background-color:wheat;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    margin-top: 30px;
+    background-color: rgb(28, 136, 213);
+    height: 500px;
+    width: 350px;
+    box-shadow: 8px 10px 12px #262525;
+}
+.ol1{
+    list-style-position: inside;
+}
+.ol1 li{
+    color: bisque;
+    margin: 12px 24px;
+    font-size: 18px;
+}
+/* list-2 */
+.inner-list ul{
+    list-style-type: square;
+}
+/* list-3 */
+.box2 ul{
+    list-style-image: url("checked.png");
+}
+.mysec{
+  padding-top: 50px;
+}
+.mysec h2{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.mysec p{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+/* footer css */
+footer{
+    padding: 30px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
